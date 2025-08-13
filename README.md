@@ -2,6 +2,11 @@
 
 
 **Background:** Delays between cancer diagnosis and treatment initiation have been linked to increased mortality risks, with risk factors for delayed treatment including male sex, increased age, Black race, low education status, prior history of cancer, and prior smoking habits. This project utilizes data from the Surveillance, Epidemiology, and End Results (SEER) Program to identify treatment delay risk factors in colorectal cancer and develop a machine learning model for treatment delay classification and important feature identification in all cancer types. \
+\
 **Methods:** The dataset (n = 1,695,951) utilized for analysis included all cancer types except central nervous system cancers and patients of all ages with a diagnosis year of 2018 to 2022. Due to computing limitations, a 2% sample (n = 34,311) was used for statistical analysis, which included descriptive analysis of all cancers and both linear and logistic regressions on a subset of colorectal cancers to identify variables associated with time to treatment (TTT) and treatment delays ≥ 28 days. Random Forest and Gradient Boosting models were developed in three factor engineering (FE) scenarios: no FE, manual FE, and Select K-best. \
+\
 **Results:** In linear regression, male sex, diagnosis age >19 years, Hispanic ethnicity, Black or Asian / Pacific Islander race, and a diagnosis year of 2020-2022 were all associated with a significant increase in TTT. In logistic regression, age other than 60-69 years and Black race were associated with decreased odds of treatment delay. Diagnosis age group, household income, year of diagnosis, and metropolitan area were identified as the most important features in the RF model without FE. Limitations include SEER data structures, lack of clinical and behavioral data, and use of a small data set for machine learning model development. \
-**Conclusions:** This project identifies risk factors associated with increased TTT and treatment delays via traditional statistical methods and machine learning feature extraction.
+\
+**Conclusions:** This project identifies risk factors associated with increased TTT and treatment delays via traditional statistical methods and machine learning feature extraction.\
+\
+This folder contains two notebooks. SEER_DataWrangling_StatAnalysis.ipynb contains the code for data wrangling and statistical analysis components of this project. SEER_ML.ipynb contains the code related to machine learning model development and important feature extraction components of the project. 
