@@ -9,4 +9,4 @@
 \
 **Conclusions:** This project identifies risk factors associated with increased TTT and treatment delays via traditional statistical methods and machine learning feature extraction.\
 \
-This folder contains two notebooks. SEER_DataWrangling_StatAnalysis.ipynb contains the code for data wrangling and statistical analysis components of this project. SEER_ML.ipynb contains the code related to machine learning model development and important feature extraction components of the project. 
+This folder contains two notebooks. **SEER_DataWrangling_StatAnalysis.ipynb** contains the code for data wrangling and statistical analysis components of this project. **SEER_ML.ipynb** contains the code related to machine learning model development and important feature extraction components of the project. 
